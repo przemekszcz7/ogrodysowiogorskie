@@ -1,0 +1,661 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>Ogrody Sowiogórskie – Projektowanie i Pielęgnacja Ogrodów · Bielawa</title>
+    <meta
+      name="description"
+      content="Ogrody Sowiogórskie — kompleksowe prace ziemne i ogrodnicze w Bielawie: projektowanie ogrodów, trawniki, nawadnianie, pielęgnacja zieleni. Bezpłatna wycena. Tel: 510 785 888"
+    />
+    <link rel="icon" type="image/jpeg" href="https://i.ibb.co/277GdkqQ/556599399-122099987913048170-7986920346013000541-n.jpg" />
+
+    <!-- Open Graph & Social Cards -->
+    <meta property="og:title" content="Ogrody Sowiogórskie – Projektowanie i Pielęgnacja Ogrodów · Bielawa" />
+    <meta property="og:description" content="Kompleksowe wykonanie prac ziemnych i ogrodniczych w Bielawie i Górach Sowich. Projektowanie, trawniki, nawadnianie, wycinka i pielęgnacja." />
+    <meta property="og:image" content="https://i.ibb.co/277GdkqQ/556599399-122099987913048170-7986920346013000541-n.jpg" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Ogrody Sowiogórskie – Bielawa" />
+    <meta name="twitter:description" content="Kompleksowe prace ziemne i ogrodnicze. Wycena bezpłatna: 510 785 888." />
+
+    <!-- Optimized Google Fonts Loading -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&family=Fraunces:ital,opsz,wght@0,9..144,600;0,9..144,700;1,9..144,400&family=Jost:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <!-- ==========================================================================
+         STICKY NAVIGATION WITH CSS-ONLY HAMBURGER MENU
+         ========================================================================== -->
+    <header class="navbar">
+      <div class="container nav-container">
+        <!-- Logo & Wordmark -->
+        <a href="#" class="nav-brand" title="Ogrody Sowiogórskie">
+          <img
+            src="https://i.ibb.co/277GdkqQ/556599399-122099987913048170-7986920346013000541-n.jpg"
+            alt="Logo Ogrody Sowiogórskie"
+            class="nav-favicon"
+            width="38"
+            height="38"
+            fetchpriority="high"
+          />
+          <div class="nav-wordmark">
+            <span class="nav-subhead">Ogrody</span>
+            <span class="nav-title">Sowiogórskie</span>
+          </div>
+        </a>
+
+        <!-- CSS Checkbox Hack for Mobile Navigation -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle-input" aria-label="Menu" />
+        <label for="nav-toggle" class="nav-toggle-label" title="Rozwiń menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </label>
+
+        <!-- Navigation Links -->
+        <ul class="nav-center">
+          <li><a href="#o-nas" class="nav-link">O Nas</a></li>
+          <li><a href="#uslugi" class="nav-link">Usługi</a></li>
+          <li><a href="#wedzarnia" class="nav-link">Wędzarnia</a></li>
+          <li><a href="#galeria" class="nav-link">Realizacje</a></li>
+          <li><a href="#kontakt" class="nav-link">Kontakt</a></li>
+          <!-- Mobile Drawer CTA (hidden on desktop) -->
+          <li class="nav-mobile-only">
+            <a href="#kontakt" class="nav-pill-btn">Bezpłatna Wycena</a>
+          </li>
+        </ul>
+
+        <!-- Desktop Action Button (hidden on mobile) -->
+        <div class="nav-actions-desktop">
+          <a href="#kontakt" class="nav-pill-btn">Bezpłatna Wycena</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- ==========================================================================
+         HERO SECTION
+         ========================================================================== -->
+    <section class="hero-section" id="start">
+      <div class="hero-inner">
+        <!-- Region Label -->
+        <span class="hero-label">Bielawa · Góry Sowie</span>
+
+        <!-- Light Ornament Divider with Lucide Leaf -->
+        <div class="ornament ornament-light">
+          <span class="orn-line"></span>
+          <span class="orn-mark">
+            <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </span>
+          <span class="orn-line"></span>
+        </div>
+
+        <!-- H1 Main Typography -->
+        <h1 class="hero-h1">
+          Ogrody
+          <span class="hero-h1-italic">Sowiogórskie</span>
+        </h1>
+
+        <!-- Handcrafted Tagline -->
+        <p class="hero-tagline">Twoje marzenia o idealnym ogrodzie — nasza pasja!</p>
+
+        <!-- Body Intro -->
+        <p class="hero-body">
+          Zajmujemy się kompleksowym wykonaniem prac ziemnych i ogrodniczych — od projektu po pielęgnację przez cały rok.
+        </p>
+
+        <!-- Feature Chips with Lucide Icons -->
+        <div class="hero-chips">
+          <span class="hero-chip">
+            <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+            Projektowanie ogrodów
+          </span>
+          <span class="hero-chip">
+            <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M12 10v12"/><path d="m14 13.5 4-4"/><path d="M8 17.5 4 13"/><path d="m10 8.5-3-3"/><path d="M10 22h4"/><path d="M12 2a4 4 0 0 0-4 4c0 1.25.6 2.37 1.5 3"/><path d="M16 6a4 4 0 0 0-4-4"/></svg>
+            Przycinanie drzew
+          </span>
+          <span class="hero-chip">
+            <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+            Nawadnianie
+          </span>
+          <span class="hero-chip">
+            <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M8 2v4"/><path d="M16 2v4"/><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>
+            Pielęgnacja całoroczna
+          </span>
+        </div>
+
+        <!-- Call to Action Buttons -->
+        <div class="hero-actions">
+          <a href="tel:510785888" class="btn-primary">
+            <svg class="icon-lucide" width="17" height="17" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            ZADZWOŃ: 510 785 888
+          </a>
+          <a href="#kontakt" class="btn-secondary">BEZPŁATNA WYCENA</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soil Texture Band Separator -->
+    <div class="soil-texture-band"></div>
+
+    <!-- ==========================================================================
+         O NAS SECTION
+         ========================================================================== -->
+    <section class="section section-about" id="o-nas">
+      <div class="container">
+        <div class="about-grid">
+          <!-- Left Column: Story & Lucide Bullet Rows -->
+          <div class="about-content">
+            <span class="section-label" style="text-align: left;">O NASZEJ FIRMIE</span>
+            <h2 class="section-title left-aligned">Pasja, która rośnie z każdym projektem.</h2>
+
+            <div class="ornament left-aligned">
+              <span class="orn-line"></span>
+              <span class="orn-mark">
+                <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+              </span>
+              <span class="orn-line"></span>
+            </div>
+
+            <p class="about-lead">
+              W Ogrodach Sowiogórskich zajmujemy się kompleksowym wykonaniem prac ziemnych i ogrodniczych. Twoje marzenia o idealnym ogrodzie — nasza pasja!
+            </p>
+
+            <ul class="about-features-list">
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+                <span>Projektowanie ogrodów dopasowanych do ukształtowania terenu i marzeń klienta</span>
+              </li>
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+                <span>Zakładanie trawników i rabat kwiatowych — z siewu i z rolki</span>
+              </li>
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>
+                <span>Pielęgnacja zieleni przez cały rok — na wiosnę, lato, jesień i zimę</span>
+              </li>
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+                <span>Systemy nawadniania automatycznego gwarantujące soczystą zieleń</span>
+              </li>
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>
+                <span>Przycinanie drzew i krzewów z zachowaniem zasad sztuki ogrodniczej</span>
+              </li>
+              <li class="about-feature-item">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="m2 9 2.5 1.5L7 9V3L4.5 1.5 2 3v6Z"/><path d="M17 15h5v5h-5z"/><path d="m7 9 5 3 5-3"/><path d="M12 12v9"/></svg>
+                <span>Mulczowanie i rekultywacja terenu, karczowanie oraz przygotowanie gleby</span>
+              </li>
+            </ul>
+          </div>
+
+          <!-- Right Column: Dark Brown Callout Card -->
+          <div class="estimate-card">
+            <span class="estimate-tag">BEZPŁATNA WYCENA</span>
+            <h3 class="estimate-title">Zadzwoń do nas i umów się na bezpłatną wycenę.</h3>
+            <p class="estimate-body">
+              Przyjedziemy, ocenimy stan terenu, podpowiemy najlepsze rozwiązania techniczne i estetyczne oraz przygotujemy przejrzysty kosztorys bez żadnych zobowiązań.
+            </p>
+
+            <div class="estimate-divider"></div>
+
+            <div class="contact-quick-item">
+              <span class="quick-label">Telefon kontaktowy:</span>
+              <a href="tel:510785888" class="quick-phone" title="Zadzwoń do Ogrodów Sowiogórskich">
+                <svg class="icon-lucide" width="22" height="22" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                510 785 888
+              </a>
+            </div>
+
+            <div class="contact-quick-item">
+              <span class="quick-label">Adres e-mail:</span>
+              <a href="mailto:ogrody.sowiogorskie@gmail.com" class="quick-link">
+                <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                ogrody.sowiogorskie@gmail.com
+              </a>
+            </div>
+
+            <div class="contact-quick-item">
+              <span class="quick-label">Siedziba firmy:</span>
+              <span class="quick-value">
+                <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                Miodowa 25, 58-260 Bielawa
+              </span>
+            </div>
+
+            <div class="contact-quick-item">
+              <span class="quick-label">Profil na Facebooku:</span>
+              <a
+                href="https://www.facebook.com/profile.php?id=61581445120804"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="quick-link"
+              >
+                <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                facebook.com/Ogrody Sowiogórskie
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         USŁUGI SECTION (6 CARDS WITH LUCIDE ICONS)
+         ========================================================================== -->
+    <section class="section section-services" id="uslugi">
+      <div class="container">
+        <span class="section-label">ZAKRES PRAC</span>
+        <h2 class="section-title">Co dla Ciebie zrobimy</h2>
+
+        <div class="ornament">
+          <span class="orn-line"></span>
+          <span class="orn-mark">
+            <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </span>
+          <span class="orn-line"></span>
+        </div>
+
+        <div class="services-grid">
+          <!-- Card 1 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><path d="M7 20h10"/><path d="M10 20c5.5-2.5.8-6.4 3-10"/><path d="M9.5 9.4c1.1.8 1.8 2.2 2.3 3.7-2 .4-3.5.4-4.8-.3-1.2-.6-2.3-1.9-3-4.2 2.8-.5 4.4 0 5.5.8z"/><path d="M14.1 6a7 7 0 0 0-1.1 4c1.9-.1 3.3-.6 4.3-1.4 1-1 1.6-2.3 1.7-4.6-2.7.1-4 1-4.9 2z"/></svg>
+            </div>
+            <h3 class="service-title">Projektowanie ogrodów</h3>
+            <p class="service-desc">
+              Zaprojektujemy przestrzeń dopasowaną do Twoich potrzeb i stylu. Tworzymy harmonijne kompozycje roślinne i ciągi komunikacyjne uwzględniające specyfikę klimatu Gór Sowich.
+            </p>
+          </article>
+
+          <!-- Card 2 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><path d="M12 2v20"/><path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/></svg>
+            </div>
+            <h3 class="service-title">Trawniki i rabaty kwiatowe</h3>
+            <p class="service-desc">
+              Zakładanie trawników oraz kolorowych rabat kwiatowych. Od właściwego przygotowania podłoża, przez dobór nasion lub darni z rolki, aż po efekt gęstego, zielonego dywanu.
+            </p>
+          </article>
+
+          <!-- Card 3 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><rect width="18" height="18" x="3" y="4" rx="2"/><path d="M16 2v4"/><path d="M8 2v4"/><path d="M3 10h18"/><path d="m9 16 2 2 4-4"/></svg>
+            </div>
+            <h3 class="service-title">Pielęgnacja całoroczna</h3>
+            <p class="service-desc">
+              Dbamy o Twoją zieleń niezależnie od pory roku. Wertykulacja, nawożenie, aeracja, grabienie liści oraz zabezpieczanie roślin na mroźne górskie zimy.
+            </p>
+          </article>
+
+          <!-- Card 4 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><path d="M12 22a7 7 0 0 0 7-7c0-2-1-3.9-3-5.5s-3.5-4-4-6.5c-.5 2.5-2 4.9-4 6.5C6 11.1 5 13 5 15a7 7 0 0 0 7 7z"/></svg>
+            </div>
+            <h3 class="service-title">Systemy nawadniania</h3>
+            <p class="service-desc">
+              Profesjonalny montaż automatycznego nawadniania ogrodu. Inteligentne czujniki deszczu, linie kroplujące pod rabaty i precyzyjne zraszacze wynurzalne oszczędzające wodę.
+            </p>
+          </article>
+
+          <!-- Card 5 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><circle cx="6" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><line x1="20" x2="8.12" y1="4" y2="15.88"/><line x1="14.47" x2="20" y1="14.48" y2="20"/><line x1="8.12" x2="12" y1="8.12" y2="12"/></svg>
+            </div>
+            <h3 class="service-title">Przycinanie drzew i krzewów</h3>
+            <p class="service-desc">
+              Fachowa pielęgnacja i formowanie zieleni. Cięcia sanitarne, prześwietlające, formowanie żywopłotów oraz bezpieczna wycinka drzew trudnych i zarośli.
+            </p>
+          </article>
+
+          <!-- Card 6 -->
+          <article class="service-card">
+            <div class="service-icon-box">
+              <svg class="icon-lucide" width="24" height="24" viewBox="0 0 24 24"><path d="m2 9 2.5 1.5L7 9V3L4.5 1.5 2 3v6Z"/><path d="M17 15h5v5h-5z"/><path d="m7 9 5 3 5-3"/><path d="M12 12v9"/></svg>
+            </div>
+            <h3 class="service-title">Mulczowanie i rekultywacja</h3>
+            <p class="service-desc">
+              Przygotowanie i odnowa terenu pod nowe nasadzenia. Rozdrabnianie gałęzi, oczyszczanie działek ze starych pni, mulczowanie gleby i niwelacja nierówności.
+            </p>
+          </article>
+        </div>
+
+        <!-- Brown strip with telephone prompt -->
+        <div class="services-callout-strip">
+          <a href="tel:510785888" class="strip-link">
+            <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+            <span>ZADZWOŃ DO NAS I UMÓW SIĘ NA BEZPŁATNĄ WYCENĘ:</span>
+            <span class="highlight-number">510 785 888</span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         EDITORIAL REALIZACJE SECTION
+         ========================================================================== -->
+    <section class="section section-craft" id="galeria">
+      <div class="container">
+        <div class="craft-wrapper">
+          <span class="section-label">LOKALNA JAKOŚĆ</span>
+          <h2 class="section-title">Górski klimat wymaga solidnej wiedzy</h2>
+
+          <div class="ornament">
+            <span class="orn-line"></span>
+            <span class="orn-mark">
+              <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+            </span>
+            <span class="orn-line"></span>
+          </div>
+
+          <p class="craft-quote">
+            „Prawdziwa ziemia, prawdziwe drewno, prawdziwe pory roku. Każdy ogród w okolicach Bielawy i Gór Sowich traktujemy jak własny — z szacunkiem dla natury i lokalnego krajobrazu.”
+          </p>
+
+          <div class="craft-badges">
+            <div class="craft-badge-item">
+              <div class="craft-badge-header">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="M14 18V6a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2v11a1 1 0 0 0 1 1h2"/><path d="M15 18H9"/><path d="M19 18h2a1 1 0 0 0 1-1v-3.65a1 1 0 0 0-.22-.624l-3.48-4.35A1 1 0 0 0 17.52 8H14"/><circle cx="17" cy="18" r="2"/><circle cx="7" cy="18" r="2"/></svg>
+                <strong>Sprzęt i doświadczenie</strong>
+              </div>
+              <span>Precyzyjne prace ziemne, mulczowanie oraz odpowiednio przygotowane podłoże.</span>
+            </div>
+            <div class="craft-badge-item">
+              <div class="craft-badge-header">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><path d="m8 3 4 8 5-5 5 15H2L8 3z"/></svg>
+                <strong>Góry Sowie i Bielawa</strong>
+              </div>
+              <span>Doskonała znajomość lokalnej specyfiki glebowej i zmiennych warunków pogodowych.</span>
+            </div>
+            <div class="craft-badge-item">
+              <div class="craft-badge-header">
+                <svg class="icon-lucide" width="20" height="20" viewBox="0 0 24 24"><rect width="8" height="4" x="8" y="2" rx="1" ry="1"/><path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2"/><path d="m9 14 2 2 4-4"/></svg>
+                <strong>Przejrzysta wycena</strong>
+              </div>
+              <span>Darmowa konsultacja na miejscu inwestycji bez ukrytych kosztów.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Soil Texture Band Separator -->
+    <div class="soil-texture-band"></div>
+
+    <!-- ==========================================================================
+         WĘDZARNIA SOWIOGÓRSKA SECTION
+         ========================================================================== -->
+    <section class="section section-smokehouse" id="wedzarnia">
+      <div class="container">
+        <div class="smokehouse-inner">
+          <span class="smokehouse-tag">NASZ DRUGI PROJEKT</span>
+
+          <div class="ornament ornament-light">
+            <span class="orn-line"></span>
+            <span class="orn-mark">
+              <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 12"/></svg>
+            </span>
+            <span class="orn-line"></span>
+          </div>
+
+          <h2 class="smokehouse-title">Wędzarnia Sowiogórska</h2>
+
+          <p class="smokehouse-subtitle">z troski o drewno — nic się nie marnuje</p>
+
+          <p class="smokehouse-body">
+            Prowadzimy również Wędzarnię Sowiogórską, w której wykorzystujemy drewno pochodzące z wycinki drzew do tradycyjnego wędzenia. Dzięki temu drewno z naszych prac ogrodniczych zyskuje drugie życie — jako naturalne paliwo do wędzenia pełnego aromatu.
+          </p>
+
+          <div class="smokehouse-chips">
+            <span class="smokehouse-chip">
+              <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="m2 9 2.5 1.5L7 9V3L4.5 1.5 2 3v6Z"/><path d="M17 15h5v5h-5z"/><path d="m7 9 5 3 5-3"/><path d="M12 12v9"/></svg>
+              Drewno z wycinki
+            </span>
+            <span class="smokehouse-chip">
+              <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+              Tradycyjne wędzenie
+            </span>
+            <span class="smokehouse-chip">
+              <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M7 19H4.815a1.83 1.83 0 0 1-1.57-.881 1.785 1.785 0 0 1-.004-1.784L7.196 9.5"/><path d="M11 19h8.2a1.8 1.8 0 0 0 1.6-1 1.8 1.8 0 0 0 0-1.8L17 9.5"/><path d="M11 5h2a1.8 1.8 0 0 1 1.6 1l4.24 7.5"/><path d="m2 16 3 3 3-3"/><path d="m16 22 3-3-3-3"/><path d="m9 2 3 3-3 3"/></svg>
+              Zero marnotrawstwa
+            </span>
+          </div>
+
+          <a
+            href="https://www.facebook.com/WedzarniaSowiogorska"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="btn-smokehouse"
+          >
+            ODWIEDŹ WĘDZARNIĘ NA FACEBOOKU
+            <svg class="icon-lucide" width="17" height="17" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         KONTAKT SECTION
+         ========================================================================== -->
+    <section class="section section-contact" id="kontakt">
+      <div class="container">
+        <span class="section-label">KONTAKT</span>
+        <h2 class="section-title">Umów bezpłatną wycenę.</h2>
+
+        <div class="ornament">
+          <span class="orn-line"></span>
+          <span class="orn-mark">
+            <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M11 20A7 7 0 0 1 9.8 6.1C15.5 5 17 4.48 19 2c1 2 2 4.18 2 8 0 5.5-4.78 10-10 10Z"/><path d="M2 21c0-3 1.85-5.36 5.08-6C9.5 14.52 12 13 13 12"/></svg>
+          </span>
+          <span class="orn-line"></span>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left: Contact Details Card -->
+          <div class="contact-details-box">
+            <!-- Phone -->
+            <div class="contact-row-item">
+              <div class="contact-icon-box">
+                <svg class="icon-lucide" width="19" height="19" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-title">Telefon bezpośredni</span>
+                <a href="tel:510785888" class="contact-link-main" title="Zadzwoń teraz">
+                  510 785 888
+                </a>
+                <span style="font-size: 0.85rem; color: var(--muted); margin-top: 3px;">
+                  Szybki kontakt telefoniczny 7 dni w tygodniu
+                </span>
+              </div>
+            </div>
+
+            <!-- Email -->
+            <div class="contact-row-item">
+              <div class="contact-icon-box">
+                <svg class="icon-lucide" width="19" height="19" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-title">Poczta elektroniczna</span>
+                <a href="mailto:ogrody.sowiogorskie@gmail.com" class="contact-text-regular" style="color: var(--bark-brown); font-weight: 600;">
+                  ogrody.sowiogorskie@gmail.com
+                </a>
+              </div>
+            </div>
+
+            <!-- Address -->
+            <div class="contact-row-item">
+              <div class="contact-icon-box">
+                <svg class="icon-lucide" width="19" height="19" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-title">Adres siedziby</span>
+                <span class="contact-text-regular">
+                  ul. Miodowa 25<br />58-260 Bielawa, woj. dolnośląskie
+                </span>
+              </div>
+            </div>
+
+            <!-- Facebook Profiles -->
+            <div class="contact-row-item">
+              <div class="contact-icon-box">
+                <svg class="icon-lucide" width="19" height="19" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+              </div>
+              <div class="contact-info">
+                <span class="contact-title">Media społecznościowe</span>
+                <div class="contact-social-links">
+                  <a
+                    href="https://www.facebook.com/profile.php?id=61581445120804"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-fb-link"
+                  >
+                    <span>Ogrody Sowiogórskie na Facebooku</span>
+                    <svg class="icon-lucide" width="15" height="15" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </a>
+                  <a
+                    href="https://www.facebook.com/WedzarniaSowiogorska"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    class="social-fb-link"
+                  >
+                    <span>Wędzarnia Sowiogórska na Facebooku</span>
+                    <svg class="icon-lucide" width="15" height="15" viewBox="0 0 24 24"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <!-- CTA Call Button -->
+            <a href="tel:510785888" class="contact-cta-btn">
+              <svg class="icon-lucide" width="18" height="18" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+              ZADZWOŃ: 510 785 888
+            </a>
+          </div>
+
+          <!-- Right: Google Maps Embed -->
+          <div class="map-card-wrapper">
+            <div class="map-header">
+              <svg class="icon-lucide" width="17" height="17" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+              <span>Lokalizacja: Ogrody Sowiogórskie, Bielawa</span>
+            </div>
+            <div class="map-iframe-container">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3268.0809946760064!2d16.613103712608353!3d50.6906343699221!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x470e37b54fa02863%3A0xa59bfb960911b43e!2sOgrody%20Sowiog%C3%B3rskie!5e1!3m2!1spl!2spl!4v1790928801249!5m2!1spl!2spl"
+                width="100%"
+                height="380"
+                style="border:0;"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="strict-origin-when-cross-origin"
+                title="Mapa dojazdu Ogrody Sowiogórskie Bielawa"
+              ></iframe>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ==========================================================================
+         FOOTER
+         ========================================================================== -->
+    <footer class="site-footer">
+      <div class="container">
+        <div class="footer-grid">
+          <!-- Col 1: Brand & Tagline -->
+          <div class="footer-brand">
+            <div class="footer-logo-row">
+              <img
+                src="https://i.ibb.co/277GdkqQ/556599399-122099987913048170-7986920346013000541-n.jpg"
+                alt="Favicon Ogrody Sowiogórskie"
+                class="footer-favicon"
+                width="40"
+                height="40"
+                loading="lazy"
+              />
+              <div class="footer-wordmark">
+                Ogrody Sowiogórskie
+                <small>Bielawa · Góry Sowie</small>
+              </div>
+            </div>
+            <p class="footer-tagline">Twoje marzenia o idealnym ogrodzie — nasza pasja!</p>
+            <p class="footer-intro">
+              Kompleksowe prace ziemne, zakładanie i pielęgnacja ogrodów oraz tradycyjna wędzarnia z szacunku do każdego kawałka drewna.
+            </p>
+          </div>
+
+          <!-- Col 2: Navigation Links -->
+          <div class="footer-nav-col">
+            <h4 class="footer-column-title">Nawigacja</h4>
+            <ul class="footer-nav-list">
+              <li><a href="#start" class="footer-nav-link">Strona główna</a></li>
+              <li><a href="#o-nas" class="footer-nav-link">O naszej firmie</a></li>
+              <li><a href="#uslugi" class="footer-nav-link">Zakres usług</a></li>
+              <li><a href="#wedzarnia" class="footer-nav-link">Wędzarnia Sowiogórska</a></li>
+              <li><a href="#galeria" class="footer-nav-link">Realizacje & Jakość</a></li>
+              <li><a href="#kontakt" class="footer-nav-link">Darmowa wycena</a></li>
+            </ul>
+          </div>
+
+          <!-- Col 3: Contact & Socials -->
+          <div class="footer-contact-col">
+            <h4 class="footer-column-title">Dane kontaktowe</h4>
+            <ul class="footer-contact-list">
+              <li class="footer-contact-item">
+                <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+                <a href="tel:510785888">510 785 888</a>
+              </li>
+              <li class="footer-contact-item">
+                <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg>
+                <a href="mailto:ogrody.sowiogorskie@gmail.com">ogrody.sowiogorskie@gmail.com</a>
+              </li>
+              <li class="footer-contact-item">
+                <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M20 10c0 4.993-5.539 10.193-7.399 11.799a1 1 0 0 1-1.202 0C9.539 20.193 4 14.993 4 10a8 8 0 0 1 16 0"/><circle cx="12" cy="10" r="3"/></svg>
+                <span>ul. Miodowa 25, 58-260 Bielawa</span>
+              </li>
+              <li class="footer-contact-item">
+                <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+                <a
+                  href="https://www.facebook.com/profile.php?id=61581445120804"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Facebook: Ogrody Sowiogórskie
+                </a>
+              </li>
+              <li class="footer-contact-item">
+                <svg class="icon-lucide" width="16" height="16" viewBox="0 0 24 24"><path d="M8.5 14.5A2.5 2.5 0 0 0 11 12c0-1.38-.5-2-1-3-1.072-2.143-.224-4.054 2-6 .5 2.5 2 4.9 4 6.5 2 1.6 3 3.5 3 5.5a7 7 0 1 1-14 0c0-1.153.433-2.294 1-3a2.5 2.5 0 0 0 2.5 2.5z"/></svg>
+                <a
+                  href="https://www.facebook.com/WedzarniaSowiogorska"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Facebook: Wędzarnia Sowiogórska
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Footer Bottom Bar -->
+        <div class="footer-bottom">
+          <p>© 2026 Ogrody Sowiogórskie & Wędzarnia Sowiogórska. Wszelkie prawa zastrzeżone.</p>
+          <div class="footer-bottom-links">
+            <a href="#start">Do góry ↑</a>
+            <a href="tel:510785888">Zadzwoń: 510 785 888</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
